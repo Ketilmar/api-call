@@ -1,0 +1,12 @@
+.result-body {
+  background-color: lightskyblue;
+}
+
+.result-body > li {
+  text-align: center;
+  font-weight: bolder;
+  list-style: none;
+  border-bottom: 1px solid;
+  margin: 0 2em 0 2em;
+  padding: 1em;
+}
