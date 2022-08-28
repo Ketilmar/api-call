@@ -6,9 +6,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <a>Learn React</a>
+        <img src={logo} className="App-logo" alt="logo" />
       </header>
-      <UsingAxios />
+      <UsingAxios tabtext="React testing" />
     </div>
   );
 }
