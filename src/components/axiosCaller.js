@@ -2,9 +2,9 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import "./axiosCaller.css";
 
+/** test */
 const UsingAxios = ({ tabtext }) => {
   const [cats, setState] = useState([]);
-
   const fetchData = async () => {
     await axios
       .get("https://catfact.ninja/facts")
